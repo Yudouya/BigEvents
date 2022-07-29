@@ -1,0 +1,18 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #ccc;
+}
+
+.layui-form {
+    width: 550px;
+}
+
+#username {
+    color: #ccc;
+}
