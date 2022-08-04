@@ -54,7 +54,7 @@ $(function () {
             }
             // 登录成功  拿到token 存到localStorage中
             localStorage.setItem('token', res.token);
-            layer.msg('登录成功！');
+            layer.msg('登录成功啊！');
             location.href = '/index.html'
         })
     })

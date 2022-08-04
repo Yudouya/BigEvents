@@ -31,7 +31,7 @@ $(function () {
             },
             success: function (res) {
                 if (res.status !== 0) {
-                    return layer.msg('修改失败！')
+                    return layer.msg(res.message)
                 }
                 layer.msg(res.message);
                 $('#pwdForm')[0].reset();
